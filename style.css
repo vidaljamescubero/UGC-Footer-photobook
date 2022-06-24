@@ -1,0 +1,264 @@
+.ugc-footer-container {
+    max-width: 853.5px;
+}
+
+.ugc-footer {
+    width: 853.5px;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+
+}
+
+.ugc-footer-header {
+    font-family: 'Crimson Text',"Crimson Text", Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    padding: 20px 0 40px 0;
+    width: 401px; 
+    margin: 0 auto;
+}
+
+.ugc-footer-left {
+    display: flex;
+    width: 100%;
+    height: 426px;
+}
+
+.ugc-footer-left-text {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.ugc-footer-left-header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Text', "Crimson Text", Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 26px;
+    text-align: right;
+    color: #000000;
+    position: absolute;
+    top: 78px;
+    right: 51px;
+}
+
+.ugc-footer-left-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', Lato, helvetica neue, helvetica,arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    color: #000000;
+    position: absolute;
+    top: 127px;
+    right: 51px;
+}
+
+.ugc-footer-left-body a {
+    color: #000000;
+}
+
+.ugc-footer-left-image {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.ugc-footer-left-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.ugc-footer-left-image-vector {
+    height: 326px;
+    width: 2px;
+    position: absolute;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    top: calc(50% - 163px) ;
+    left: 0;
+}
+
+.ugc-footer-right {
+    display: flex;
+    width: 100%;
+    height: 426px;
+}
+
+.ugc-footer-right-image {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.ugc-footer-right-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.ugc-footer-right-image-vector {
+    height: 326px;
+    position: absolute;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    top: calc(50% - 163px) ;
+    right: 0;
+}
+
+.ugc-footer-right-text {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.ugc-footer-right-header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Text', "Crimson Text", Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 26px;
+    text-align: left;
+    color: #000000;
+    position: absolute;
+    top: 78px;
+    left: 51px;
+}
+
+.ugc-footer-right-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', Lato, helvetica neue, helvetica,arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+    position: absolute;
+    top: 127px;
+    left: 51px;
+}
+
+/* mobile */
+
+.ugc-footer-mobile {
+    display: none;
+}
+
+.ugc-footer-mobile-header {
+    margin: 0 auto;
+    padding: 40px 0;
+    font-family: 'Crimson Text', "Crimson Text", Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+    width: 250px;
+}
+
+.ugc-footer-mobile-content {
+    max-width: 414px;
+    margin: 0 auto;
+}
+
+.ugc-footer-mobile-image {
+    width: 100%;
+    height: 206px;
+    position: relative;
+}
+
+.ugc-footer-mobile-image img {
+    height: 100%;
+    width: 100%;
+}
+
+.ugc-footer-mobile-image-overlay {
+    width: 87.2%;
+    position: absolute;
+    bottom: 0;
+    left: 6.4%;
+    border: 1px solid #000;
+}
+
+.ugc-footer-mobile-text {
+    height: 306px;
+    width: 100%;
+    position: relative;
+}
+
+.ugc-footer-mobile-text-header-container {
+    width: 100%;
+    position: absolute;
+    top: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ugc-footer-mobile-text-body-container {
+    width: 100%;
+    position: absolute;
+    top: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ugc-footer-mobile-text-header {
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Text', "Crimson Text", Georgia, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #000000;
+}
+
+.ugc-footer-mobile-text-body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', Lato, helvetica neue, helvetica,arial,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+}
+
+.ugc-footer-mobile-text-body a {
+    color: #000000;
+}
+
+@media only screen and (max-width: 767px) {
+    .ugc-footer-container {
+        display: none;
+    }
+    
+    .ugc-footer-mobile {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 413px) {
+    .ugc-footer-mobile-image {
+        height: calc(100vw * 0.4975845410628019);
+    }
+}
