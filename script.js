@@ -5,8 +5,7 @@ window.addEventListener('resize', () => {
     if (ugcFooterContainer.offsetWidth !== ugcFooter.offsetWidth) {
         let diff = ugcFooterContainer.offsetWidth / ugcFooter.offsetWidth;
         let height = ugcFooter.offsetHeight;
-        let heightValue = `${diff * height}px`
-        console.log(heightValue)
+        let heightValue = `${diff * height}px`;
 
         ugcFooter.style.cssText = `
             transform: scale(${diff});
